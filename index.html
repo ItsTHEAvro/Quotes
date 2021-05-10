@@ -14,7 +14,7 @@
     <title>Projects | Quotes</title>
 </head>
 
-<body class="noSelect">
+<body class="noSelect" onload="getQuote()">
     <header>
         <h1>Quote</h1>
     </header>
@@ -26,21 +26,22 @@
                 </div>
                 <div class="quote-container">
                     <span class="quote">
-                        Lorem ipsum
+                        
                 </span>
                 </div>
             </div>
             <div class="author-container">
                 <span class="author">
-                        Author
+                        
                     </span>
             </div>
         </div>
         <div class="btn-container">
             <button class="copy-quote">Copy</button>
-            <button class="random">Give me another!</button>
+            <button class="get-quote">Give me another!</button>
         </div>
     </main>
+    <script src="scripts/quotes.json"></script>
     <script src="scripts/app.js"></script>
 </body>
 
